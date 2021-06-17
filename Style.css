@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding-top: 700px;
+    text-align: center;
+}
+     
+.profile{
+    width: 200px;
+    margin-bottom: 60px;
+    border-radius: 60px;
+}
+#Welcome{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.83;
+   background: linear-gradient(#FFD700 0%, #0000FF 100%);
+        display: table;
+    width: 100%;
+    height: 100%;
+}
+.paralax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+}
+h2{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: fantasy;
+    font-weight: 300;
+}
+#car{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Viaoda Libre', cursive; 
+}
+#ct{
+    padding: 50px;
+    text-align: center;
+}
+.line{
+    height: 7px;
+    background: blue;
+    width: 70px;
+    margin: 9px auto;
+    
+}
+p{
+    max-width: 455px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.5;
+    color: chartreuse;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    z-index: 11;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: rebeccapurple;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: palevioletred;
+    
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: fuchsia;
+}
+html{
+    scroll-behavior: smooth;
+}
+
